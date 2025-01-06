@@ -2,6 +2,9 @@
 
 	/* Q1: Who is the senior most employee based on job title? */
 
+echo "SELECT * FROM employees;" > query.sql
+
+
 SELECT title, last_name, first_name 
 FROM employee
 ORDER BY levels DESC
